@@ -22,38 +22,41 @@ const PhotosPage = () => {
         </div>
       </div>
 
-      <div className="sidebar">
-        <div className="friends-section">
-          <h3 className="section-title">My Friends</h3>
-          <div className="friends-grid">
-            {[...Array(9)].map((_, index) => (
+  {/* Right Content - Sidebar */}
+  <div className="profile-right">
+    {/* My Friends */}
+      <div className="sidebar-section">
+        <div className="sidebar-header">My Friends</div>
+        <div className="friends-grid">
+           {[...Array(12)].map((_, i) => (
               <img
-                key={index}
-                src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-                alt={`Friend ${index}`}
+                key={i}
+                src="https://www.w3schools.com/howto/img_avatar.png"
+                alt="Friend"
                 className="friend-avatar"
               />
             ))}
           </div>
-          <button className="view-button">View All Friends</button>
+          <button className="btn">View All Friends</button>
         </div>
 
-        <div className="groups-section">
-          <h3 className="section-title">Latest Groups</h3>
-          {[...Array(3)].map((_, index) => (
-            <div className="group-card" key={index}>
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/194/194938.png"
-                alt="Group"
-                className="group-icon"
+    {/* Latest Groups */}
+  <div className="sidebar-section">
+    <div className="sidebar-header">Latest Groups</div>
+      {[...Array(3)].map((_, i) => (
+        <div className="group-card" key={i}>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/74/74472.png"
+              alt="Group"
+              className="group-icon"
               />
-              <div>
-                <strong>Sample Group One</strong>
-                <p>This is a Dobbie social network sample group</p>
-              </div>
+            <div>
+            <strong>Sample Group One</strong>
+              <p>This is a Dobbio social network sample group</p>
+             </div>
             </div>
           ))}
-          <button className="view-button">View All Groups</button>
+          <button className="btn">View All Groups</button>
         </div>
       </div>
     </div>

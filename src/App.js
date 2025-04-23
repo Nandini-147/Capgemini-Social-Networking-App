@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ProfilePage from './ProfilePage';
 import PhotosPage from './PhotosPage';
+import MembersPage from './MembersPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </header> */}
        <ProfilePage/> 
       <PhotosPage/>
+      <MembersPage/>
     </div>
   );
 }
