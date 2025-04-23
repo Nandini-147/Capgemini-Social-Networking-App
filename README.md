@@ -19,5 +19,3 @@ The Capgemini Social Networking application is a feature-rich platform designed 
 - A profile page for "User" with personal information, a profile wall for updates, and sections for friends and groups.
 
 
- 
->>>>>>> 6bb743aa2b57a8a1b8c610b24267a8295739f042
