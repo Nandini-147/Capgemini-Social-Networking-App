@@ -1,0 +1,80 @@
+/* MembersPage.css */
+
+.members-page {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  .main-content {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .member-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .member-info {
+    margin-top: 10px;
+  }
+  
+  .member-info p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .buttons button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sidebar {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .my-friends, .latest-groups {
+    margin-bottom: 20px;
+  }
+  
+  .my-friends h2, .latest-groups h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .my-friends img, .latest-groups img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
