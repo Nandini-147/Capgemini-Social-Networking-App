@@ -4,7 +4,7 @@ import './ProfilePage.css';
 const ProfilePage = () => {
   return (
     <div className="profile-container">
-      {/* Left Content - Profile */}
+      
       <div className="profile-left">
         <h2>John Doe</h2>
         <div className="profile-info">
@@ -23,7 +23,7 @@ const ProfilePage = () => {
           </ul>
         </div>
 
-        {/* Profile Wall */}
+       
         <div className="profile-wall">
           <div className="wall-header">Profile Wall</div>
           <textarea placeholder="Write on the wall" className="wall-input" />
@@ -38,9 +38,9 @@ const ProfilePage = () => {
         </div>
       </div>
 
-      {/* Right Content - Sidebar */}
+     
       <div className="profile-right">
-        {/* My Friends */}
+        
         <div className="sidebar-section">
           <div className="sidebar-header">My Friends</div>
           <div className="friends-grid">
@@ -56,7 +56,7 @@ const ProfilePage = () => {
           <button className="btn">View All Friends</button>
         </div>
 
-        {/* Latest Groups */}
+     
         <div className="sidebar-section">
           <div className="sidebar-header">Latest Groups</div>
           {[...Array(3)].map((_, i) => (

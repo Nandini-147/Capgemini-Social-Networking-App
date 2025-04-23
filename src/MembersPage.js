@@ -1,32 +1,5 @@
-// import React from 'react';
-// import './MembersPage.css'; 
-
-// const MemberCard = ({ username }) => (
-//   <div className="member-card">
-//     <img src="placeholder-profile.png" alt="Profile" className="profile-pic"/>
-//     <div className="member-info">
-//       <p>{username}</p>
-//       <div className="buttons">
-//         <button>Add Friend</button>
-//         <button>Send Message</button>
-//         <button>View Profile</button>
-//       </div>
-//     </div>
-//   </div>
-// );
-
-// const MembersPage = () => {
-//   const members = ['SampleUser1', 'SampleUser2', 'SampleUser3']; // Example member data
-
-//   return (
-//     <div className="members-page">
-//       <main className="main-content">
-//         {members.map((username, index) => (
-//           <MemberCard key={index} username={username} />
-//         ))}
-
 import React from 'react';
-import './MembersPage.css'; // Assuming you have some CSS for styling
+import './MembersPage.css'; 
 
 const MemberCard = ({ username }) => (
   <div className="member-card">
@@ -56,13 +29,8 @@ const MembersPage = () => {
         
        
 
-        
-
-
-        
-        {/* Right Content - Sidebar */}
         <div className="profile-right">
-          {/* My Friends */}
+        
           <div className="sidebar-section">
             <div className="sidebar-header">My Friends</div>
             <div className="friends-grid">
@@ -78,7 +46,7 @@ const MembersPage = () => {
             <button className="btn">View All Friends</button>
           </div>
 
-          {/* Latest Groups */}
+        
           <div className="sidebar-section">
             <div className="sidebar-header">Latest Groups</div>
             {[...Array(3)].map((_, i) => (
