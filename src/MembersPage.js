@@ -14,7 +14,7 @@ const MemberCard = ({ username }) => (
 );
 
 const MembersPage = () => {
-  const members = ['SampleUser1', 'SampleUser2', 'SampleUser3']; // Example member data hello
+  const members = ['SampleUser1', 'SampleUser2', 'SampleUser3']; // Example member data 
 
   return (
     <div className="members-page">
